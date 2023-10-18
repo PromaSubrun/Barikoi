@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "582c95bf-496d-4085-a093-0d928bd19907",
+		"name": "Barikoi reverse geo API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18135403"
+	},
+	"item": [
+		{
+			"name": "GetBarikoiReverseGeoAPI",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://barikoi.xyz/v1/api/search/reverse/API_KEY/geocode?longitude=90.36744611263278&latitude=23.81970957278533&district=true&post_code=true&country=true&sub_district=true&union=true&pauroshova=true&location_type=true&division=true&address=true&area=true&bangla=true&apikey=bkoi_1a1ef2fbc06a446ffc2e15ac1b96ba1a65f01b283700bbe5beb377ce84734325",
+					"protocol": "https",
+					"host": [
+						"barikoi",
+						"xyz"
+					],
+					"path": [
+						"v1",
+						"api",
+						"search",
+						"reverse",
+						"API_KEY",
+						"geocode"
+					],
+					"query": [
+						{
+							"key": "longitude",
+							"value": "90.36744611263278"
+						},
+						{
+							"key": "latitude",
+							"value": "23.81970957278533"
+						},
+						{
+							"key": "district",
+							"value": "true"
+						},
+						{
+							"key": "post_code",
+							"value": "true"
+						},
+						{
+							"key": "country",
+							"value": "true"
+						},
+						{
+							"key": "sub_district",
+							"value": "true"
+						},
+						{
+							"key": "union",
+							"value": "true"
+						},
+						{
+							"key": "pauroshova",
+							"value": "true"
+						},
+						{
+							"key": "location_type",
+							"value": "true"
+						},
+						{
+							"key": "division",
+							"value": "true"
+						},
+						{
+							"key": "address",
+							"value": "true"
+						},
+						{
+							"key": "area",
+							"value": "true"
+						},
+						{
+							"key": "bangla",
+							"value": "true"
+						},
+						{
+							"key": "apikey",
+							"value": "bkoi_1a1ef2fbc06a446ffc2e15ac1b96ba1a65f01b283700bbe5beb377ce84734325"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
