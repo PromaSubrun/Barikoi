@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Barikoi.TC_05CheckSearchSuggestedValue">
+        <methods>
+          <include name="driverClose"/>
+          <include name="Barikoi"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- Barikoi.TC_05CheckSearchSuggestedValue -->
+      <class name="Barikoi.TC_01CheckSearchFunctionalityWithInvalidValue">
+        <methods>
+          <include name="driverClose"/>
+          <include name="Barikoi"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- Barikoi.TC_01CheckSearchFunctionalityWithInvalidValue -->
+      <class name="Barikoi.TC_03CheckExpectedSearchValue">
+        <methods>
+          <include name="driverClose"/>
+          <include name="Barikoi"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- Barikoi.TC_03CheckExpectedSearchValue -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

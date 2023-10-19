@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Barikoi.TC_01CheckSearchFunctionalityWithInvalidValue"/>
+      <class name="Barikoi.TC_02CheckSearchFunctionalityWithValidValue"/>
+      <class name="Barikoi.TC_03CheckExpectedSearchValue"/>
+      <class name="Barikoi.TC_04CheckEmptySearch"/>
+      <class name="Barikoi.TC_05CheckSearchSuggestedValue"/>
+      <class name="Barikoi.TC_06CheckAutoCorrection"/>
+      <class name="Barikoi.TC_07CheckSearchButton"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
